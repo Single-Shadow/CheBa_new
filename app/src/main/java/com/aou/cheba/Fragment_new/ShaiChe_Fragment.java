@@ -133,6 +133,7 @@ public class ShaiChe_Fragment extends Fragment {
         //   mLoadMoreListView.setOnItemClickListener(new ItemClickListener());
     }
 
+    //定位的部分暂时先不用
     private StringBuffer sb;
     private String cityName = "";
     private void Location() {
