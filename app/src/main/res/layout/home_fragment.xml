@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#081123"
+        >
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:padding="2dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="4dp"
+            android:src="@mipmap/search" />
+
+        <ImageView
+            android:id="@+id/cheba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/chenew" />
+
+    </RelativeLayout>
+
+
+     <com.aou.cheba.view.RefreshAndLoadMoreView
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/refresh_and_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.aou.cheba.view.LoadMoreListView
+            android:id="@+id/load_more_list"
+            android:scrollbars="none"
+            android:divider="#fff"
+            android:listSelector="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.aou.cheba.view.RefreshAndLoadMoreView>
+
+
+</LinearLayout>

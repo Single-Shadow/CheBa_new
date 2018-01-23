@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png",
+        "source": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ssdk_oks_ptr_ptr.png"
+    },
+    {
+        "merged": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    }
+]

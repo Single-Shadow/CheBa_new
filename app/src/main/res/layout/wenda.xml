@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.aou.cheba.view.RefreshAndLoadMoreView
+        android:id="@+id/refresh_and_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.aou.cheba.view.LoadMoreListView
+            android:id="@+id/load_more_list"
+            android:scrollbars="none"
+            android:divider="#fff"
+            android:listSelector="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.aou.cheba.view.RefreshAndLoadMoreView>
+
+</LinearLayout>

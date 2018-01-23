@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60FFFFFF"
+    android:gravity="bottom|center_horizontal">
+
+    <!--<LinearLayout
+        android:id="@+id/ll_wenda"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/more_window_wenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/cheba"
+            android:text="问答" />
+    </LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/more_window_shaiche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/more_window_online"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/cheba"
+            android:gravity="center_horizontal"
+            android:text="晒车" />
+
+        <TextView
+            android:id="@+id/more_window_cheyouquan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_toRightOf="@+id/more_window_online"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/lukuang"
+            android:gravity="center_horizontal"
+            android:text="车友圈" />
+
+        <!--<TextView
+            android:id="@+id/more_window_zixun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/cheba"
+            android:gravity="center_horizontal"
+            android:text="资讯" />-->
+        <TextView
+            android:id="@+id/more_window_wenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@mipmap/cheba"
+            android:gravity="center_horizontal"
+            android:text="问答" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/center_music_window_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:padding="15dp"
+        android:src="@mipmap/tabbar_compose_background_icon_close" />
+
+</RelativeLayout>

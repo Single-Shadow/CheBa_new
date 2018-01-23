@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ssdk_oks_classic_progressbar.xml",
+        "source": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\drawable\\ssdk_oks_classic_progressbar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\ssdk_oks_classic_platform_cell_back.xml",
+        "source": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\drawable\\ssdk_oks_classic_platform_cell_back.xml"
+    }
+]

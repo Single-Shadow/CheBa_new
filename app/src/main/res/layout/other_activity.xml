@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+>
+
+    <com.aou.cheba.view.RefreshAndLoadMoreView
+        android:id="@+id/refresh_and_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.aou.cheba.view.LoadMoreListView
+            android:background="#f0f0f0"
+            android:id="@+id/load_more_list"
+            android:scrollbars="none"
+            android:divider="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.aou.cheba.view.RefreshAndLoadMoreView>
+
+
+    <ImageView
+        android:id="@+id/iv_finish"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:src="@mipmap/ffanhui_bai" />
+</RelativeLayout>

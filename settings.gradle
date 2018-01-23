@@ -1,0 +1,1 @@
+include ':app', ':circleimageview', ':lib-xlv', ':qipao_library', ':swipecard', ':Pushlib', ':sharesdk_demo', ':Umeng', ':PushSDK'

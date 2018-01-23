@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+    <com.aou.cheba.view.RefreshAndLoadMoreView
+        android:id="@+id/refresh_and_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_home"
+        android:layout_marginBottom="45dp">
+
+        <com.aou.cheba.view.LoadMoreListView
+            android:id="@+id/load_more_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#EDEDED"
+            android:dividerHeight="0.2dp"
+            android:listSelector="#fff"
+            android:scrollbars="none" />
+    </com.aou.cheba.view.RefreshAndLoadMoreView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#EEEEEE"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/tv_guanzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+ 关注问答"
+                android:layout_gravity="center_vertical"
+                android:textColor="#333"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:background="#EC4040"
+            >
+            <TextView
+                android:id="@+id/tv_huida"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="回答"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <!--<RelativeLayout
+        android:id="@+id/rl_dicontent"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentBottom="true"
+        android:background="#EEEEEE"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <Button
+            android:id="@+id/tv_publishs"
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/blue_button_background"
+            android:gravity="center"
+            android:text="发表"
+            android:textColor="#fff"
+            android:textSize="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+          android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toLeftOf="@id/tv_publish"
+            android:background="@drawable/b">
+
+            <ImageView
+                android:id="@+id/iv_bi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:src="@mipmap/bi" />
+
+            <EditText
+                android:id="@+id/tv_huitie"
+                style="?android:attr/textViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:gravity="bottom"
+                android:layout_alignParentBottom="true"
+                android:layout_toRightOf="@id/iv_bi"
+                android:background="@null"
+                android:hint="说几句..."
+                android:textColor="#8000"
+                android:textSize="18sp"
+                android:textColorHint="#989d9b" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>-->
+
+    <ImageView
+        android:id="@+id/iv_finish"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="3dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:src="@mipmap/ffanhui_bai" />
+
+</RelativeLayout>

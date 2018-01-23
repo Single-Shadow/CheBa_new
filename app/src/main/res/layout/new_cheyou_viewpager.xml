@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ececec"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@mipmap/ding_bj">
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/search" />
+
+        <TextView
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/iv_search"
+            android:text="车吧搜索"
+            android:textColor="#f1f1f1"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_jia"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:src="@mipmap/ding_dtj" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_home2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#fff"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:clickable="true"
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="车友社区"
+            android:padding="5dp"
+            android:textColor="#4F8EFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:clickable="true"
+            android:id="@+id/tv_2"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:text="车友问答"
+            android:textColor="#969696"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:textColor="#ececec"
+        />
+ <android.support.v4.view.ViewPager
+     android:id="@+id/viewpager"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:flipInterval="30"
+     android:persistentDrawingCache="animation"
+     >
+
+ </android.support.v4.view.ViewPager>
+
+</LinearLayout>

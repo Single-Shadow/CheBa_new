@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '19.1.0'
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 22
+    }
+}
+
+dependencies {
+    provided 'com.android.support:support-annotations:23.3.0'
+}
+
+//apply from: 'https://raw.github.com/hdodenhof/gradle-mvn-push/master/gradle-mvn-push.gradle'

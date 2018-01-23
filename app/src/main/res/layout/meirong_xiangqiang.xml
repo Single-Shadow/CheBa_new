@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@mipmap/ding_bj"
+        >
+
+        <ImageView
+            android:id="@+id/iv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ding_fanhui" />
+
+        <TextView
+            android:id="@+id/faiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="车公庙店"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/iv_shoucang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:enabled="true"
+            android:padding="5dp"
+            android:src="@mipmap/shoucang_bai" />
+
+        <ImageView
+            android:id="@+id/iv_fengxiang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/iv_shoucang"
+            android:enabled="true"
+            android:padding="5dp"
+            android:src="@mipmap/fenxiang_bai" />
+
+    </RelativeLayout>
+
+    <com.aou.cheba.view.RefreshAndLoadMoreView
+        android:id="@+id/refresh_and_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_home"
+        android:layout_marginBottom="46dp">
+
+        <com.aou.cheba.view.LoadMoreListView
+            android:id="@+id/load_more_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#EDEDED"
+            android:dividerHeight="0.5dp"
+            android:listSelector="#fff"
+            android:scrollbars="none" />
+    </com.aou.cheba.view.RefreshAndLoadMoreView>
+
+    <LinearLayout
+        android:id="@+id/rl_xia"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dedede" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/zan"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@mipmap/xin"
+                android:gravity="center"
+                android:text="赞"
+                android:textColor="#646464" />
+
+            <TextView
+                android:id="@+id/ping"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:drawableTop="@mipmap/shoucang"
+                android:gravity="center"
+                android:text="写点评"
+                android:textColor="#646464" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

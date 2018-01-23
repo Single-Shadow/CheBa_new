@@ -1,0 +1,85 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'game'
+            keyPassword 'anou1305'
+            storeFile file('C:/Users/Administrator/Desktop/chebasign.keystore')
+            storePassword 'anou1305'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion '23.0.3'
+
+    defaultConfig {
+        applicationId "com.aou.cheba"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 2
+        versionName "1.1"
+
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.config
+        }
+    }
+//noinspection all
+    task copyNativeLibs(type: Copy) {
+        // third party lib so
+        from(new File(projectDir, 'libs')) { include 'armeabi.so', 'armeabi-v7a.so' }
+        into new File(buildDir, 'native-libs')
+    }
+    tasks.withType(JavaCompile) {
+        compileTask ->
+            //noinspection all
+            compileTask.dependsOn copyNativeLibs
+    }
+    //noinspection all
+    tasks.withType(com.android.build.gradle.tasks.PackageApplication) {
+        pkgTask ->
+            new HashSet().add(new File(buildDir, 'native-libs'))
+
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':lib-xlv')
+    compile name: 'SMSSDK-2.1.1', ext: 'aar'
+    compile name: 'SMSSDKGUI-2.1.1', ext: 'aar'
+    compile project(':circleimageview')
+    compile project(':swipecard')
+    compile 'com.facebook.fresco:fresco:0.13.0'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.jiechic.library:xUtils:2.6.14'
+    compile project(':qipao_library')
+    compile project(':sharesdk_demo')
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'net.qiujuer.genius:blur:2.0.0'
+    compile files('libs/BaiduLBS_Android.jar')
+    compile 'com.android.support:support-v4:23.2.1'
+    compile files('libs/alipaySdk-20151103.jar')
+    compile project(':PushSDK')
+    compile 'com.squareup.okio:okio:1.13.0'
+    compile 'com.android.support:multidex:1.0.1'
+}

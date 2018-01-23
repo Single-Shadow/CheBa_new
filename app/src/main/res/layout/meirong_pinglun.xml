@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+    <RelativeLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@mipmap/ding_bj"
+        >
+
+        <ImageView
+            android:id="@+id/iv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="8dp"
+            android:src="@mipmap/ding_fanhui" />
+
+        <TextView
+            android:id="@+id/faiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="点评"
+            android:textColor="#fff"
+            android:textSize="22sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_home">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="哈里伯爵汽车服务（沃尔玛店）"
+        android:singleLine="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#2c2c2c"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总体"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#222222"
+            android:textSize="15sp" />
+
+        <com.aou.cheba.view.RatingBar
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="23dp"
+            style="@style/RadingStyle"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/xin_zongti"
+            app:starCount="5"
+            app:starEmpty="@mipmap/xinxinb"
+            app:starFill="@mipmap/xinxin"
+            app:starHalf="@mipmap/xinxin"
+            app:starImageSize="20dp"
+            app:starPadding="5dp"
+            app:starStep="2"
+            app:stepSize="Half"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_xin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="15dp"
+            android:textColor="#929292"
+            android:textSize="13sp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#F0F0F0" />
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="技术"
+            android:textColor="#222222"
+            android:textSize="15sp" />
+
+        <com.aou.cheba.view.RatingBar
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="23dp"
+            style="@style/RadingStyle"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/xin_jishu"
+            app:starCount="5"
+            app:starEmpty="@mipmap/xinxinb"
+            app:starFill="@mipmap/xinxin"
+            app:starHalf="@mipmap/xinxin"
+            app:starImageSize="20dp"
+            app:starPadding="5dp"
+            app:starStep="0.5"
+            app:stepSize="Half"
+            />
+        <TextView
+            android:id="@+id/tv_jishu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#929292"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="服务"
+            android:textColor="#222222"
+            android:textSize="15sp" />
+
+        <com.aou.cheba.view.RatingBar
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="23dp"
+            style="@style/RadingStyle"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/xin_fuwu"
+            app:starCount="5"
+            app:starEmpty="@mipmap/xinxinb"
+            app:starFill="@mipmap/xinxin"
+            app:starHalf="@mipmap/xinxin"
+            app:starImageSize="20dp"
+            app:starPadding="5dp"
+            app:starStep="0.5"
+            app:stepSize="Half"
+            />
+        <TextView
+            android:id="@+id/tv_fuwu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#929292"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="环境"
+            android:textColor="#222222"
+            android:textSize="15sp" />
+
+        <com.aou.cheba.view.RatingBar
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="23dp"
+            style="@style/RadingStyle"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/xin_huanjing"
+            app:starCount="5"
+            app:starEmpty="@mipmap/xinxinb"
+            app:starFill="@mipmap/xinxin"
+            app:starHalf="@mipmap/xinxin"
+            app:starImageSize="20dp"
+            app:starPadding="5dp"
+            app:starStep="0.5"
+            app:stepSize="Half"
+            />
+        <TextView
+            android:id="@+id/tv_huanjing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="70dp"
+            android:textColor="#929292"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:background="#dedede" />
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:background="@drawable/beijing_meirong"
+        android:gravity="start"
+        android:textColor="#464646"
+        android:textSize="16sp"
+        android:hint="服务是否专业，价格是否合理？您的意见非常重要！"
+        android:maxLength="1000" />
+
+</LinearLayout>
+
+
+            <com.aou.cheba.view.MyGrideView
+                android:background="#f0f0f0"
+                android:id="@+id/iv_datu"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:listSelector="#fff"
+                android:gravity="center"
+                android:horizontalSpacing="3dp"
+                android:numColumns="4"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="3dp" />
+
+            <Button
+                android:id="@+id/tv_publish"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/blue_button_background"
+                android:text="发  表"
+                android:textColor="#fff"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

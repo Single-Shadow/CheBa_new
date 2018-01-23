@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="10dp"
+       android:layout_marginBottom="15dp"
+      >
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="6"
+            android:text=""
+            android:textSize="13dp"
+            android:gravity="center_horizontal"
+            android:textColor="#2B2F2E" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/fl_datu"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/content"
+            android:layout_marginTop="5dp">
+
+            <ImageView
+                android:layout_marginTop="2dp"
+                android:id="@+id/iv_datu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+
+            <TextView
+                android:id="@+id/image_shu"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="3dp"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/imageshu"
+                android:gravity="center"
+                android:text="4 图"
+                android:textColor="#fff"
+                android:textSize="10dp" />
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="今天：09:30:00"
+                android:textColor="#9c9c9c"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_biaoti"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@mipmap/ding_bj">
+
+        <ImageView
+            android:id="@+id/iv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:src="@mipmap/ding_fanhui" />
+
+        <TextView
+            android:id="@+id/faiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="搜索"
+            android:textColor="#f1f1f1"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@mipmap/ding_bj"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bt_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@null"
+            android:enabled="true"
+            android:text="搜索"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/tv_content"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/bt_search"
+            android:background="@drawable/beijing_bai"
+            android:hint="请输入搜索内容"
+            android:paddingLeft="10dp"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.aou.cheba.view.RefreshAndLoadMoreView
+                android:id="@+id/refresh_and_load_more"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:background="#fff"
+                android:layout_marginTop="5dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.aou.cheba.view.LoadMoreListView
+                    android:id="@+id/load_more_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:layout_marginTop="5dp"
+                    android:divider="#fff"
+                    android:dividerHeight="0.5dp"
+                    android:listSelector="#fff"
+                    android:scrollbars="none" />
+            </com.aou.cheba.view.RefreshAndLoadMoreView>
+
+            <LinearLayout
+                android:id="@+id/ll_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tag_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="16.0dip"
+                    android:text="搜索历史"
+                    android:textColor="#ff999999"
+                    android:textSize="16.0sp" />
+
+                <com.aou.cheba.view.TagListView xmlns:f="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/tagview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="12dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="16.0dip"
+                    f:horizontalSpacing="8dp"
+                    f:orientation="horizontal"
+                    f:verticalSpacing="6dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_tishi"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:gravity="center"
+                android:text="很抱歉！没找到相关内容"
+                android:textColor="#000"
+                android:visibility="invisible" />
+        </FrameLayout>
+</LinearLayout>

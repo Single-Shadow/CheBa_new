@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@mipmap/ding_bj">
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_search"
+            android:layout_width="21dp"
+            android:layout_height="21dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/search" />
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/iv_search"
+            android:text="搜索"
+            android:textColor="#f1f1f1"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="悦图"
+            android:paddingTop="15dp"
+            android:layout_centerInParent="true"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            />
+
+  <!--      <ImageView
+            android:id="@+id/iv_jia"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:src="@mipmap/ding_dtj" />-->
+    </RelativeLayout>
+
+    <FrameLayout
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <com.aou.cheba.view.RefreshAndLoadMoreView
+            android:id="@+id/refresh_and_load_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.aou.cheba.view.LoadMoreListView
+                android:id="@+id/load_more_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="#fff"
+                android:listSelector="#fff"
+                android:scrollbars="none" />
+        </com.aou.cheba.view.RefreshAndLoadMoreView>-->
+
+        <com.aou.cheba.view.RefreshAndLoadMore_GrideView
+            android:id="@+id/refresh_and_load_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+
+            <com.aou.cheba.view.LoadMoreGrideView
+                android:id="@+id/load_more_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:gravity="center"
+                android:horizontalSpacing="8dp"
+                android:verticalSpacing="8dp"
+                android:numColumns="2"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth" />
+        </com.aou.cheba.view.RefreshAndLoadMore_GrideView>
+
+        <com.aou.cheba.view.ProgressBarCircularIndeterminate
+            android:id="@+id/progressBarCircularIndetermininate"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="#EA5E4B" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

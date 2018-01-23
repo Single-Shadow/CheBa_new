@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/xian"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="#ededed" />
+
+    <RelativeLayout
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/xian">
+
+        <ImageView
+            android:id="@+id/image_dian"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_dianname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image_dian"
+            android:singleLine="true"
+            android:textColor="#262626"
+            android:text="牛牛车管家（上梅林店）"
+            android:textSize="16sp" />
+
+        <com.aou.cheba.view.RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            style="@style/RadingStyle"
+            android:layout_below="@id/tv_dianname"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/image_dian"
+            android:id="@+id/xin"
+            app:starCount="5"
+            app:starEmpty="@mipmap/xinxinb"
+            app:starFill="@mipmap/xinxin"
+            app:starHalf="@mipmap/xinxin"
+            app:starImageSize="20dp"
+            app:starPadding="3dp"
+            app:starStep="0.5"
+            app:stepSize="Half"
+            app:clickable="false"
+            />
+
+        <TextView
+            android:id="@+id/tv_dizhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/xin"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/image_dian"
+            android:text="福田区"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/xin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@id/tv_dizhi"
+            android:text="维修保养"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/tv_ping_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/xin"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_alignParentRight="true"
+            android:text="589"
+            android:layout_marginRight="4dp"
+            android:drawableLeft="@mipmap/pinglun"
+            android:drawablePadding="5dp"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

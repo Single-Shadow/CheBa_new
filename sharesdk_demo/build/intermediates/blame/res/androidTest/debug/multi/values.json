@@ -1,0 +1,1761 @@
+[
+    {
+        "outputFile": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 81,
+                    "endOffset": 132
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 81,
+                        "endOffset": 132
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 137,
+                    "endColumn": 81,
+                    "endOffset": 214
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 137,
+                        "endColumn": 81,
+                        "endOffset": 214
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 219,
+                    "endColumn": 50,
+                    "endOffset": 265
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 219,
+                        "endColumn": 50,
+                        "endOffset": 265
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 270,
+                    "endColumn": 52,
+                    "endOffset": 318
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 270,
+                        "endColumn": 52,
+                        "endOffset": 318
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 323,
+                    "endColumn": 45,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 323,
+                        "endColumn": 45,
+                        "endOffset": 364
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 369,
+                    "endColumn": 86,
+                    "endOffset": 451
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 369,
+                        "endColumn": 86,
+                        "endOffset": 451
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 456,
+                    "endColumn": 53,
+                    "endOffset": 505
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 456,
+                        "endColumn": 53,
+                        "endOffset": 505
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 510,
+                    "endColumn": 45,
+                    "endOffset": 551
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endColumn": 45,
+                        "endOffset": 551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 556,
+                    "endColumn": 42,
+                    "endOffset": 594
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 556,
+                        "endColumn": 42,
+                        "endOffset": 594
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 599,
+                    "endColumn": 48,
+                    "endOffset": 643
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 599,
+                        "endColumn": 48,
+                        "endOffset": 643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 648,
+                    "endColumn": 41,
+                    "endOffset": 685
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 648,
+                        "endColumn": 41,
+                        "endOffset": 685
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 690,
+                    "endColumn": 46,
+                    "endOffset": 732
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 690,
+                        "endColumn": 46,
+                        "endOffset": 732
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 737,
+                    "endColumn": 50,
+                    "endOffset": 783
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 737,
+                        "endColumn": 50,
+                        "endOffset": 783
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 788,
+                    "endColumn": 69,
+                    "endOffset": 853
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 788,
+                        "endColumn": 69,
+                        "endOffset": 853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 858,
+                    "endColumn": 108,
+                    "endOffset": 962
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 858,
+                        "endColumn": 108,
+                        "endOffset": 962
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 967,
+                    "endColumn": 46,
+                    "endOffset": 1009
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 967,
+                        "endColumn": 46,
+                        "endOffset": 1009
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1014,
+                    "endColumn": 54,
+                    "endOffset": 1064
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1014,
+                        "endColumn": 54,
+                        "endOffset": 1064
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1069,
+                    "endColumn": 102,
+                    "endOffset": 1167
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1069,
+                        "endColumn": 102,
+                        "endOffset": 1167
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1172,
+                    "endColumn": 51,
+                    "endOffset": 1219
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1172,
+                        "endColumn": 51,
+                        "endOffset": 1219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1224,
+                    "endColumn": 52,
+                    "endOffset": 1272
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1224,
+                        "endColumn": 52,
+                        "endOffset": 1272
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1277,
+                    "endColumn": 103,
+                    "endOffset": 1376
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1277,
+                        "endColumn": 103,
+                        "endOffset": 1376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1381,
+                    "endColumn": 83,
+                    "endOffset": 1460
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1381,
+                        "endColumn": 83,
+                        "endOffset": 1460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1465,
+                    "endLine": 89,
+                    "endColumn": 9,
+                    "endOffset": 3345
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1465,
+                        "endLine": 89,
+                        "endColumn": 9,
+                        "endOffset": 3345
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 90,
+                    "startColumn": 4,
+                    "startOffset": 3350,
+                    "endColumn": 54,
+                    "endOffset": 3400
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 90,
+                        "startColumn": 4,
+                        "startOffset": 3350,
+                        "endColumn": 54,
+                        "endOffset": 3400
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 91,
+                    "startColumn": 4,
+                    "startOffset": 3405,
+                    "endColumn": 52,
+                    "endOffset": 3453
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 91,
+                        "startColumn": 4,
+                        "startOffset": 3405,
+                        "endColumn": 52,
+                        "endOffset": 3453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 92,
+                    "startColumn": 4,
+                    "startOffset": 3458,
+                    "endColumn": 52,
+                    "endOffset": 3506
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 92,
+                        "startColumn": 4,
+                        "startOffset": 3458,
+                        "endColumn": 52,
+                        "endOffset": 3506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 93,
+                    "startColumn": 4,
+                    "startOffset": 3511,
+                    "endColumn": 57,
+                    "endOffset": 3564
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 93,
+                        "startColumn": 4,
+                        "startOffset": 3511,
+                        "endColumn": 57,
+                        "endOffset": 3564
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 94,
+                    "startColumn": 4,
+                    "startOffset": 3569,
+                    "endColumn": 50,
+                    "endOffset": 3615
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 94,
+                        "startColumn": 4,
+                        "startOffset": 3569,
+                        "endColumn": 50,
+                        "endOffset": 3615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 95,
+                    "startColumn": 4,
+                    "startOffset": 3620,
+                    "endColumn": 43,
+                    "endOffset": 3659
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 95,
+                        "startColumn": 4,
+                        "startOffset": 3620,
+                        "endColumn": 43,
+                        "endOffset": 3659
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 96,
+                    "startColumn": 4,
+                    "startOffset": 3664,
+                    "endColumn": 54,
+                    "endOffset": 3714
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 96,
+                        "startColumn": 4,
+                        "startOffset": 3664,
+                        "endColumn": 54,
+                        "endOffset": 3714
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 97,
+                    "startColumn": 4,
+                    "startOffset": 3719,
+                    "endColumn": 104,
+                    "endOffset": 3819
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 97,
+                        "startColumn": 4,
+                        "startOffset": 3719,
+                        "endColumn": 104,
+                        "endOffset": 3819
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 98,
+                    "startColumn": 4,
+                    "startOffset": 3824,
+                    "endColumn": 52,
+                    "endOffset": 3872
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 98,
+                        "startColumn": 4,
+                        "startOffset": 3824,
+                        "endColumn": 52,
+                        "endOffset": 3872
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 3877,
+                    "endColumn": 101,
+                    "endOffset": 3974
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 99,
+                        "startColumn": 4,
+                        "startOffset": 3877,
+                        "endColumn": 101,
+                        "endOffset": 3974
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 3979,
+                    "endColumn": 43,
+                    "endOffset": 4018
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 100,
+                        "startColumn": 4,
+                        "startOffset": 3979,
+                        "endColumn": 43,
+                        "endOffset": 4018
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 4023,
+                    "endColumn": 85,
+                    "endOffset": 4104
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 101,
+                        "startColumn": 4,
+                        "startOffset": 4023,
+                        "endColumn": 85,
+                        "endOffset": 4104
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 4109,
+                    "endColumn": 52,
+                    "endOffset": 4157
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 102,
+                        "startColumn": 4,
+                        "startOffset": 4109,
+                        "endColumn": 52,
+                        "endOffset": 4157
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4162,
+                    "endColumn": 42,
+                    "endOffset": 4200
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 103,
+                        "startColumn": 4,
+                        "startOffset": 4162,
+                        "endColumn": 42,
+                        "endOffset": 4200
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4205,
+                    "endColumn": 86,
+                    "endOffset": 4287
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 104,
+                        "startColumn": 4,
+                        "startOffset": 4205,
+                        "endColumn": 86,
+                        "endOffset": 4287
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4292,
+                    "endColumn": 44,
+                    "endOffset": 4332
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 105,
+                        "startColumn": 4,
+                        "startOffset": 4292,
+                        "endColumn": 44,
+                        "endOffset": 4332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4337,
+                    "endColumn": 43,
+                    "endOffset": 4376
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 106,
+                        "startColumn": 4,
+                        "startOffset": 4337,
+                        "endColumn": 43,
+                        "endOffset": 4376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4381,
+                    "endColumn": 59,
+                    "endOffset": 4436
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 107,
+                        "startColumn": 4,
+                        "startOffset": 4381,
+                        "endColumn": 59,
+                        "endOffset": 4436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4441,
+                    "endColumn": 54,
+                    "endOffset": 4491
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 108,
+                        "startColumn": 4,
+                        "startOffset": 4441,
+                        "endColumn": 54,
+                        "endOffset": 4491
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4496,
+                    "endColumn": 46,
+                    "endOffset": 4538
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 109,
+                        "startColumn": 4,
+                        "startOffset": 4496,
+                        "endColumn": 46,
+                        "endOffset": 4538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4543,
+                    "endColumn": 47,
+                    "endOffset": 4586
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 110,
+                        "startColumn": 4,
+                        "startOffset": 4543,
+                        "endColumn": 47,
+                        "endOffset": 4586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4591,
+                    "endColumn": 49,
+                    "endOffset": 4636
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 111,
+                        "startColumn": 4,
+                        "startOffset": 4591,
+                        "endColumn": 49,
+                        "endOffset": 4636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4641,
+                    "endColumn": 53,
+                    "endOffset": 4690
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 112,
+                        "startColumn": 4,
+                        "startOffset": 4641,
+                        "endColumn": 53,
+                        "endOffset": 4690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4695,
+                    "endColumn": 57,
+                    "endOffset": 4748
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 113,
+                        "startColumn": 4,
+                        "startOffset": 4695,
+                        "endColumn": 57,
+                        "endOffset": 4748
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 4753,
+                    "endColumn": 52,
+                    "endOffset": 4801
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 114,
+                        "startColumn": 4,
+                        "startOffset": 4753,
+                        "endColumn": 52,
+                        "endOffset": 4801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 4806,
+                    "endColumn": 60,
+                    "endOffset": 4862
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 115,
+                        "startColumn": 4,
+                        "startOffset": 4806,
+                        "endColumn": 60,
+                        "endOffset": 4862
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 4867,
+                    "endColumn": 45,
+                    "endOffset": 4908
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 116,
+                        "startColumn": 4,
+                        "startOffset": 4867,
+                        "endColumn": 45,
+                        "endOffset": 4908
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 4913,
+                    "endColumn": 57,
+                    "endOffset": 4966
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 117,
+                        "startColumn": 4,
+                        "startOffset": 4913,
+                        "endColumn": 57,
+                        "endOffset": 4966
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 4971,
+                    "endColumn": 57,
+                    "endOffset": 5024
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 118,
+                        "startColumn": 4,
+                        "startOffset": 4971,
+                        "endColumn": 57,
+                        "endOffset": 5024
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 5029,
+                    "endColumn": 54,
+                    "endOffset": 5079
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 119,
+                        "startColumn": 4,
+                        "startOffset": 5029,
+                        "endColumn": 54,
+                        "endOffset": 5079
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5084,
+                    "endColumn": 56,
+                    "endOffset": 5136
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 120,
+                        "startColumn": 4,
+                        "startOffset": 5084,
+                        "endColumn": 56,
+                        "endOffset": 5136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5141,
+                    "endColumn": 52,
+                    "endOffset": 5189
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 121,
+                        "startColumn": 4,
+                        "startOffset": 5141,
+                        "endColumn": 52,
+                        "endOffset": 5189
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5194,
+                    "endColumn": 103,
+                    "endOffset": 5293
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 122,
+                        "startColumn": 4,
+                        "startOffset": 5194,
+                        "endColumn": 103,
+                        "endOffset": 5293
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5298,
+                    "endColumn": 44,
+                    "endOffset": 5338
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 123,
+                        "startColumn": 4,
+                        "startOffset": 5298,
+                        "endColumn": 44,
+                        "endOffset": 5338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5343,
+                    "endColumn": 46,
+                    "endOffset": 5385
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 124,
+                        "startColumn": 4,
+                        "startOffset": 5343,
+                        "endColumn": 46,
+                        "endOffset": 5385
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 5390,
+                    "endColumn": 38,
+                    "endOffset": 5424
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 125,
+                        "startColumn": 4,
+                        "startOffset": 5390,
+                        "endColumn": 38,
+                        "endOffset": 5424
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 5429,
+                    "endColumn": 83,
+                    "endOffset": 5508
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 126,
+                        "startColumn": 4,
+                        "startOffset": 5429,
+                        "endColumn": 83,
+                        "endOffset": 5508
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 5513,
+                    "endColumn": 43,
+                    "endOffset": 5552
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 127,
+                        "startColumn": 4,
+                        "startOffset": 5513,
+                        "endColumn": 43,
+                        "endOffset": 5552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 5557,
+                    "endColumn": 43,
+                    "endOffset": 5596
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 128,
+                        "startColumn": 4,
+                        "startOffset": 5557,
+                        "endColumn": 43,
+                        "endOffset": 5596
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 5601,
+                    "endColumn": 62,
+                    "endOffset": 5659
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 129,
+                        "startColumn": 4,
+                        "startOffset": 5601,
+                        "endColumn": 62,
+                        "endOffset": 5659
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 5664,
+                    "endColumn": 63,
+                    "endOffset": 5723
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 130,
+                        "startColumn": 4,
+                        "startOffset": 5664,
+                        "endColumn": 63,
+                        "endOffset": 5723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 5728,
+                    "endColumn": 55,
+                    "endOffset": 5779
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 131,
+                        "startColumn": 4,
+                        "startOffset": 5728,
+                        "endColumn": 55,
+                        "endOffset": 5779
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 5784,
+                    "endColumn": 50,
+                    "endOffset": 5830
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 132,
+                        "startColumn": 4,
+                        "startOffset": 5784,
+                        "endColumn": 50,
+                        "endOffset": 5830
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 5835,
+                    "endColumn": 55,
+                    "endOffset": 5886
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 133,
+                        "startColumn": 4,
+                        "startOffset": 5835,
+                        "endColumn": 55,
+                        "endOffset": 5886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 5891,
+                    "endColumn": 63,
+                    "endOffset": 5950
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 134,
+                        "startColumn": 4,
+                        "startOffset": 5891,
+                        "endColumn": 63,
+                        "endOffset": 5950
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 5955,
+                    "endColumn": 48,
+                    "endOffset": 5999
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 135,
+                        "startColumn": 4,
+                        "startOffset": 5955,
+                        "endColumn": 48,
+                        "endOffset": 5999
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 6004,
+                    "endColumn": 47,
+                    "endOffset": 6047
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 136,
+                        "startColumn": 4,
+                        "startOffset": 6004,
+                        "endColumn": 47,
+                        "endOffset": 6047
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 6052,
+                    "endColumn": 51,
+                    "endOffset": 6099
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 137,
+                        "startColumn": 4,
+                        "startOffset": 6052,
+                        "endColumn": 51,
+                        "endOffset": 6099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 6104,
+                    "endColumn": 53,
+                    "endOffset": 6153
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 138,
+                        "startColumn": 4,
+                        "startOffset": 6104,
+                        "endColumn": 53,
+                        "endOffset": 6153
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 6158,
+                    "endColumn": 50,
+                    "endOffset": 6204
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 139,
+                        "startColumn": 4,
+                        "startOffset": 6158,
+                        "endColumn": 50,
+                        "endOffset": 6204
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 6209,
+                    "endColumn": 46,
+                    "endOffset": 6251
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 140,
+                        "startColumn": 4,
+                        "startOffset": 6209,
+                        "endColumn": 46,
+                        "endOffset": 6251
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 6256,
+                    "endColumn": 48,
+                    "endOffset": 6300
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 141,
+                        "startColumn": 4,
+                        "startOffset": 6256,
+                        "endColumn": 48,
+                        "endOffset": 6300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 6305,
+                    "endColumn": 59,
+                    "endOffset": 6360
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 142,
+                        "startColumn": 4,
+                        "startOffset": 6305,
+                        "endColumn": 59,
+                        "endOffset": 6360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 6365,
+                    "endColumn": 45,
+                    "endOffset": 6406
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 143,
+                        "startColumn": 4,
+                        "startOffset": 6365,
+                        "endColumn": 45,
+                        "endOffset": 6406
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 6411,
+                    "endColumn": 59,
+                    "endOffset": 6466
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 144,
+                        "startColumn": 4,
+                        "startOffset": 6411,
+                        "endColumn": 59,
+                        "endOffset": 6466
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 6471,
+                    "endColumn": 44,
+                    "endOffset": 6511
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 145,
+                        "startColumn": 4,
+                        "startOffset": 6471,
+                        "endColumn": 44,
+                        "endOffset": 6511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 6516,
+                    "endColumn": 86,
+                    "endOffset": 6598
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 146,
+                        "startColumn": 4,
+                        "startOffset": 6516,
+                        "endColumn": 86,
+                        "endOffset": 6598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 6603,
+                    "endColumn": 52,
+                    "endOffset": 6651
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 147,
+                        "startColumn": 4,
+                        "startOffset": 6603,
+                        "endColumn": 52,
+                        "endOffset": 6651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 6656,
+                    "endColumn": 52,
+                    "endOffset": 6704
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 148,
+                        "startColumn": 4,
+                        "startOffset": 6656,
+                        "endColumn": 52,
+                        "endOffset": 6704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 6709,
+                    "endColumn": 59,
+                    "endOffset": 6764
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 149,
+                        "startColumn": 4,
+                        "startOffset": 6709,
+                        "endColumn": 59,
+                        "endOffset": 6764
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 6769,
+                    "endColumn": 58,
+                    "endOffset": 6823
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 150,
+                        "startColumn": 4,
+                        "startOffset": 6769,
+                        "endColumn": 58,
+                        "endOffset": 6823
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 6828,
+                    "endColumn": 50,
+                    "endOffset": 6874
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 151,
+                        "startColumn": 4,
+                        "startOffset": 6828,
+                        "endColumn": 50,
+                        "endOffset": 6874
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 6879,
+                    "endColumn": 98,
+                    "endOffset": 6973
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 152,
+                        "startColumn": 4,
+                        "startOffset": 6879,
+                        "endColumn": 98,
+                        "endOffset": 6973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 6978,
+                    "endColumn": 41,
+                    "endOffset": 7015
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 153,
+                        "startColumn": 4,
+                        "startOffset": 6978,
+                        "endColumn": 41,
+                        "endOffset": 7015
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 7020,
+                    "endColumn": 83,
+                    "endOffset": 7099
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 154,
+                        "startColumn": 4,
+                        "startOffset": 7020,
+                        "endColumn": 83,
+                        "endOffset": 7099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 7104,
+                    "endColumn": 51,
+                    "endOffset": 7151
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 155,
+                        "startColumn": 4,
+                        "startOffset": 7104,
+                        "endColumn": 51,
+                        "endOffset": 7151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 7156,
+                    "endColumn": 45,
+                    "endOffset": 7197
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 156,
+                        "startColumn": 4,
+                        "startOffset": 7156,
+                        "endColumn": 45,
+                        "endOffset": 7197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 7202,
+                    "endLine": 163,
+                    "endColumn": 12,
+                    "endOffset": 7488
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 157,
+                        "startColumn": 4,
+                        "startOffset": 7202,
+                        "endLine": 163,
+                        "endColumn": 12,
+                        "endOffset": 7488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 7493,
+                    "endLine": 166,
+                    "endColumn": 12,
+                    "endOffset": 7648
+                },
+                "from": {
+                    "file": "E:\\AndroidStudioProject\\CheBa_new\\sharesdk_demo\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 164,
+                        "startColumn": 4,
+                        "startOffset": 7493,
+                        "endLine": 166,
+                        "endColumn": 12,
+                        "endOffset": 7648
+                    }
+                }
+            }
+        ]
+    }
+]

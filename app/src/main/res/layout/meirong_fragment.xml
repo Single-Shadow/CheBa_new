@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_wai"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@mipmap/ding_bj"
+        >
+
+        <ImageView
+            android:id="@+id/iv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="3dp"
+            android:src="@mipmap/ding_fanhui" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车美容"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="20sp"
+            android:textColor="#f1f1f1"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@mipmap/ding_bj"
+        android:gravity="center">
+
+        <TextView
+            android:enabled="true"
+            android:id="@+id/tv_sousuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#fff"
+            android:text="搜索"
+            android:layout_alignParentRight="true"
+            />
+        <EditText
+            android:id="@+id/et_sousuo"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toLeftOf="@id/tv_sousuo"
+            android:hint="请输入搜索内容"
+            android:textSize="14sp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/beijing_bai" />
+
+    <!--    <TextView
+            android:id="@+id/tv_sousuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawableLeft="@mipmap/search_che"
+            android:drawablePadding="5dp"
+            android:text="搜索"
+            android:textColor="#d3d3d3"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_sousuo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/search_che"
+            android:padding="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            />-->
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.aou.cheba.view.RefreshAndLoadMoreView
+            android:id="@+id/refresh_and_load_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.aou.cheba.view.LoadMoreListView
+                android:id="@+id/load_more_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:listSelector="#fff"
+                android:divider="#fff"
+                android:scrollbars="none" />
+        </com.aou.cheba.view.RefreshAndLoadMoreView>
+
+        <com.aou.cheba.view.ProgressBarCircularIndeterminate
+            android:id="@+id/progressBarCircularIndetermininate"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="#EA5E4B" />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>

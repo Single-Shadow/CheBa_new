@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e9e9e9"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_xiyou"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#292929"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rl_search"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/beijing_xiyou"
+            >
+
+            <TextView
+                android:id="@+id/tv_sousuo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@mipmap/search_che"
+                android:drawablePadding="5dp"
+                android:text="请输入关键字"
+                android:textColor="#878787"
+                android:textSize="17sp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.aou.cheba.view.RefreshAndLoadMoreView
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:id="@+id/refresh_and_load_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.aou.cheba.view.LoadMoreListView
+                android:id="@+id/load_more_list"
+                android:scrollbars="none"
+                android:divider="#fff"
+                android:listSelector="#e9e9e9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </com.aou.cheba.view.RefreshAndLoadMoreView>
+
+        <com.aou.cheba.view.ProgressBarCircularIndeterminate
+            android:id="@+id/progressBarCircularIndetermininate"
+            android:layout_gravity="center"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:background="#EA5E4B" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
+
+
+    <ImageView
+        android:id="@+id/iv_news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@mipmap/news" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_xian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/iv_news">
+
+        <TextView
+            android:id="@+id/tv_xian1"
+            android:layout_width="0.5dp"
+            android:layout_height="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#a9a9a9" />
+
+        <ImageView
+            android:id="@+id/iv_dian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:src="@mipmap/dian" />
+
+        <TextView
+            android:id="@+id/tv_xian"
+            android:layout_width="0.5dp"
+            android:layout_height="70dp"
+            android:layout_below="@id/iv_dian"
+            android:layout_centerHorizontal="true"
+            android:background="#a9a9a9" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/rl_xian"
+        android:text="shijian"
+        android:textSize="10dp"
+        android:textColor="#6f6f6f" />
+
+    <RelativeLayout
+        android:id="@+id/rl_hige"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_time"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/rl_xian"
+        android:background="#fff">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/tv_biaoti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/iv_head"
+            android:text="王宏"
+            android:textColor="#3CCD3C"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/tv_biaoti"
+            android:text="回复了你的评论"
+            android:textColor="#4f4f4f"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_biaoti"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/iv_head"
+            android:singleLine="true"
+            android:text="回复了你的评论"
+            android:textColor="#4f4f4f"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_margin="2dp"
+            android:scaleType="centerCrop" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

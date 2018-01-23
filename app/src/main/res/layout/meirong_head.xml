@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fafafa"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="哈里伯爵汽车服务（沃尔玛店）"
+        android:textColor="#2e2d32"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_iv"
+        android:layout_below="@id/tv_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_height="85dp">
+
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_marginRight="1dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/iv_2"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="1dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <ImageView
+            android:id="@+id/iv_3"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="1dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/iv_4"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:clickable="false"
+                android:id="@+id/image_shu"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/imageshu"
+                android:gravity="center"
+                android:text="4 图"
+                android:textColor="#fff"
+                android:textSize="10dp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <!--<HorizontalScrollView
+        android:id="@+id/ho"
+        android:layout_width="wrap_content"
+        android:layout_height="90dip"
+        android:layout_marginLeft="5dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <GridView
+                android:id="@+id/grid"
+                android:layout_width="700dp"
+                android:layout_height="fill_parent"
+                android:numColumns="auto_fit"
+                android:scrollbars="none"
+                android:stretchMode="spacingWidthUniform"></GridView>
+        </LinearLayout>
+    </HorizontalScrollView>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <com.aou.cheba.view.RatingBar
+            android:id="@+id/xin"
+            style="@style/RadingStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:gravity="center_vertical"
+            app:clickable="false"
+            app:starCount="5"
+            app:starEmpty="@mipmap/xinxinb"
+            app:starFill="@mipmap/xinxin"
+            app:starHalf="@mipmap/xinxin"
+            app:starImageSize="20dp"
+            app:starPadding="5dp"
+            app:starStep="0.5"
+            app:stepSize="Half" />
+
+        <TextView
+            android:id="@+id/pingNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="16条"
+            android:textColor="#919191"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dizhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="华侨城"
+            android:textColor="#919191"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="维修保养"
+            android:textColor="#919191"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/jishu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="技术:8.1"
+            android:textColor="#919191"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/fuwu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 服务:8.2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:textColor="#919191"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/huanjing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 环境:8.1"
+            android:textColor="#919191"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#f0f0f0"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="20dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/weizhi_hong" />
+
+        <TextView
+            android:id="@+id/xiangxidizhi"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="14sp"
+            android:maxLines="2"
+            android:textColor="#535353"
+            android:text="沃尔玛地下停车场C区228号" />
+
+        <TextView
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#dedede"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="3dp"
+            />
+
+        <ImageView
+            android:id="@+id/iv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:src="@mipmap/dianhua_hong" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f0f0f0"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#fafafa" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f0f0f0"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="最新评论"
+            android:textSize="14sp"
+            android:textColor="#949399" />
+    </LinearLayout>
+
+</LinearLayout>
